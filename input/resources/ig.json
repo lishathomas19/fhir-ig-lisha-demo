@@ -1,0 +1,10 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "demo-ig",
+  "url": "http://example.org/fhir/ImplementationGuide/demo-ig",
+  "version": "0.1.0",
+  "name": "DemoIG",
+  "status": "draft",
+  "fhirVersion": ["4.0.1"],
+  "packageId": "org.example.demo-ig"
+}

@@ -1,0 +1,45 @@
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+   <id value="demo-ig"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <p class="res-header-id">
+            <b>Generated Narrative: ImplementationGuide demo-ig</b>
+         </p>
+         <a name="demo-ig"> </a>
+         <a name="hcdemo-ig"> </a>
+         <h2>DemoIG</h2>
+         <p>The official URL for this implementation guide is: </p>
+         <pre>http://example.org/fhir/ImplementationGuide/demo-ig</pre>
+      </div>
+   </text>
+   <url value="http://example.org/fhir/ImplementationGuide/demo-ig"/>
+   <version value="0.1.0"/>
+   <name value="DemoIG"/>
+   <status value="draft"/>
+   <date value="2025-12-13T23:59:50+01:00"/>
+   <packageId value="org.example.demo-ig"/>
+   <license value="CC0-1.0"/>
+   <fhirVersion value="4.0.1"/>
+   <dependsOn id="hl7tx">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+         <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+      </extension>
+      <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+      <packageId value="hl7.terminology.r4"/>
+      <version value="7.0.1"/>
+   </dependsOn>
+   <dependsOn id="hl7ext">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+         <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+      </extension>
+      <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+      <packageId value="hl7.fhir.uv.extensions.r4"/>
+      <version value="5.2.0"/>
+   </dependsOn>
+   <definition>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+         <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
+      </extension>
+   </definition>
+</ImplementationGuide>

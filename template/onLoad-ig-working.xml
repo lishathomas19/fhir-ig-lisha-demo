@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><ImplementationGuide xmlns="http://hl7.org/fhir"><id value="demo-ig"/><url value="http://example.org/fhir/ImplementationGuide/demo-ig"/><version value="0.1.0"/><name value="DemoIG"/><status value="draft"/><packageId value="org.example.demo-ig"/><fhirVersion value="4.0.1"/></ImplementationGuide>
