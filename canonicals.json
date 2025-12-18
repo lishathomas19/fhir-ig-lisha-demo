@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "demo.ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/fhir/demo-ig/ImplementationGuide/demo.ig",
+    "version" : "0.0.1",
+    "name" : "DemoImplementationGuide"
+  },
+  {
+    "id" : "demo-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/demo-ig/StructureDefinition/demo-patient",
+    "version" : "0.0.1",
+    "name" : "DemoPatient"
+  }
+]
