@@ -3,20 +3,20 @@
   "id" : "demo.ig",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide demo.ig</b></p><a name=\"demo.ig\"> </a><a name=\"hcdemo.ig\"> </a><h2>DemoImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/fhir/demo-ig/ImplementationGuide/demo.ig</pre><div><p>Simple demo IG with one Patient profile and example.</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide demo.ig</b></p><a name=\"demo.ig\"> </a><a name=\"hcdemo.ig\"> </a><h2>DemoImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://lishathomas19.github.io/fhir-ig-lisha-demo/ImplementationGuide/demo.ig</pre><div><p>Simple demo IG with one Patient profile and example.</p>\n</div></div>"
   },
-  "url" : "http://example.org/fhir/demo-ig/ImplementationGuide/demo.ig",
+  "url" : "https://lishathomas19.github.io/fhir-ig-lisha-demo/ImplementationGuide/demo.ig",
   "version" : "0.0.1",
   "name" : "DemoImplementationGuide",
   "title" : "Lisha Demo Implementation Guide",
   "status" : "active",
-  "date" : "2025-12-18T14:07:37+01:00",
+  "date" : "2025-12-23T14:30:43+01:00",
   "publisher" : "Lisha Thomas",
   "contact" : [{
     "name" : "Lisha Thomas",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://github.com/lishathomas19"
+      "value" : "https://github.com/lishathomas19/fhir-ig-lisha-demo"
     }]
   },
   {
@@ -157,7 +157,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://example.org/fhir/demo-ig/history.html"
+        "valueString" : "https://lishathomas19.github.io/fhir-ig-lisha-demo/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -436,7 +436,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://example.org/fhir/demo-ig/history.html"
+        "valueString" : "https://lishathomas19.github.io/fhir-ig-lisha-demo/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -615,7 +615,7 @@
       },
       "name" : "Demo Patient Example",
       "description" : "Example Patient that conforms to DemoPatient.",
-      "exampleCanonical" : "http://example.org/fhir/demo-ig/StructureDefinition/demo-patient"
+      "exampleCanonical" : "https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient"
     },
     {
       "extension" : [{

@@ -3,7 +3,7 @@ DemoImplementationGuide : Validation Results
 
 err = 1, warn = 5, info = 1
 $--
-Generated $--. FHIR version $-- for demo.ig#$-- (canonical = http://example.org/fhir/demo-ig)
+Generated $--. FHIR version $-- for demo.ig#$-- (canonical = https://lishathomas19.github.io/fhir-ig-lisha-demo)
  Build Errors : 1 / 5 / 0
  C:\fhir-publish\ig\fsh-generated\resources\ImplementationGuide-demo.ig : 0 / 0 / 1
  C:\fhir-publish\ig\fsh-generated\resources\Patient-DemoPatientExample : 0 / 0 / 1

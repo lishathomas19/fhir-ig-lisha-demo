@@ -3,21 +3,21 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="demo.ig"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide demo.ig</b></p><a name="demo.ig"> </a><a name="hcdemo.ig"> </a><h2>DemoImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/fhir/demo-ig/ImplementationGuide/demo.ig</pre><div><p>Simple demo IG with one Patient profile and example.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide demo.ig</b></p><a name="demo.ig"> </a><a name="hcdemo.ig"> </a><h2>DemoImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://lishathomas19.github.io/fhir-ig-lisha-demo/ImplementationGuide/demo.ig</pre><div><p>Simple demo IG with one Patient profile and example.</p>
 </div></div>
   </text>
-  <url value="http://example.org/fhir/demo-ig/ImplementationGuide/demo.ig"/>
+  <url value="https://lishathomas19.github.io/fhir-ig-lisha-demo/ImplementationGuide/demo.ig"/>
   <version value="0.0.1"/>
   <name value="DemoImplementationGuide"/>
   <title value="Lisha Demo Implementation Guide"/>
   <status value="active"/>
-  <date value="2025-12-18T14:07:37+01:00"/>
+  <date value="2025-12-23T14:30:43+01:00"/>
   <publisher value="Lisha Thomas"/>
   <contact>
     <name value="Lisha Thomas"/>
     <telecom>
       <system value="url"/>
-      <value value="https://github.com/lishathomas19"/>
+      <value value="https://github.com/lishathomas19/fhir-ig-lisha-demo"/>
     </telecom>
   </contact>
   <contact>
@@ -125,7 +125,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://example.org/fhir/demo-ig/history.html"/>
+        <valueString value="https://lishathomas19.github.io/fhir-ig-lisha-demo/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -328,7 +328,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://example.org/fhir/demo-ig/history.html"/>
+        <valueString value="https://lishathomas19.github.io/fhir-ig-lisha-demo/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -460,7 +460,7 @@
       </reference>
       <name value="Demo Patient Example"/>
       <description value="Example Patient that conforms to DemoPatient."/>
-      <exampleCanonical value="http://example.org/fhir/demo-ig/StructureDefinition/demo-patient"/>
+      <exampleCanonical value="https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

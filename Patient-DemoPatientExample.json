@@ -2,7 +2,7 @@
   "resourceType" : "Patient",
   "id" : "DemoPatientExample",
   "meta" : {
-    "profile" : ["http://example.org/fhir/demo-ig/StructureDefinition/demo-patient"]
+    "profile" : ["https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient"]
   },
   "text" : {
     "status" : "generated",

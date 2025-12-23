@@ -22,7 +22,7 @@ Erika Mustermann Female, DoB: 1980-05-12 ( http://example.org/fhir/ids/patient#1
   "id" : "DemoPatientExample",
   "meta" : {
     "profile" : [
-      "http://example.org/fhir/demo-ig/StructureDefinition/demo-patient"
+      "https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient"
     ]
   },
   "identifier" : [

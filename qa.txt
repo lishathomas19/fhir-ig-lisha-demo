@@ -3,7 +3,7 @@ DemoImplementationGuide : Validation Results
 
 err = 1, warn = 5, info = 1
 IG Publisher Version: 2.0.28 Out of date - current version is 2.0.29
-Generated Thu Dec 18 14:09:19 CET 2025. FHIR version 4.0.1 for demo.ig#0.0.1 (canonical = http://example.org/fhir/demo-ig)
+Generated Tue Dec 23 14:32:43 CET 2025. FHIR version 4.0.1 for demo.ig#0.0.1 (canonical = https://lishathomas19.github.io/fhir-ig-lisha-demo)
  Build Errors : 1 / 5 / 0
  C:\fhir-publish\ig\fsh-generated\resources\ImplementationGuide-demo.ig : 0 / 0 / 1
  C:\fhir-publish\ig\fsh-generated\resources\Patient-DemoPatientExample : 0 / 0 / 1

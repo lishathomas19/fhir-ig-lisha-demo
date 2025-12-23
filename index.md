@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://example.org/fhir/demo-ig/ImplementationGuide/demo.ig | *Version*:0.0.1 |
-| Active as of 2025-12-18 | *Computable Name*:DemoImplementationGuide |
+| *Official URL*:https://lishathomas19.github.io/fhir-ig-lisha-demo/ImplementationGuide/demo.ig | *Version*:0.0.1 |
+| Active as of 2025-12-23 | *Computable Name*:DemoImplementationGuide |
 
 # Demo IG
 
@@ -24,12 +24,12 @@ It includes one example Patient resource.
 {
   "resourceType" : "ImplementationGuide",
   "id" : "demo.ig",
-  "url" : "http://example.org/fhir/demo-ig/ImplementationGuide/demo.ig",
+  "url" : "https://lishathomas19.github.io/fhir-ig-lisha-demo/ImplementationGuide/demo.ig",
   "version" : "0.0.1",
   "name" : "DemoImplementationGuide",
   "title" : "Lisha Demo Implementation Guide",
   "status" : "active",
-  "date" : "2025-12-18T14:07:37+01:00",
+  "date" : "2025-12-23T14:30:43+01:00",
   "publisher" : "Lisha Thomas",
   "contact" : [
     {
@@ -37,7 +37,7 @@ It includes one example Patient resource.
       "telecom" : [
         {
           "system" : "url",
-          "value" : "https://github.com/lishathomas19"
+          "value" : "https://github.com/lishathomas19/fhir-ig-lisha-demo"
         }
       ]
     },
@@ -208,7 +208,7 @@ It includes one example Patient resource.
           },
           {
             "url" : "value",
-            "valueString" : "http://example.org/fhir/demo-ig/history.html"
+            "valueString" : "https://lishathomas19.github.io/fhir-ig-lisha-demo/history.html"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -537,7 +537,7 @@ It includes one example Patient resource.
           },
           {
             "url" : "value",
-            "valueString" : "http://example.org/fhir/demo-ig/history.html"
+            "valueString" : "https://lishathomas19.github.io/fhir-ig-lisha-demo/history.html"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -751,7 +751,7 @@ It includes one example Patient resource.
         },
         "name" : "Demo Patient Example",
         "description" : "Example Patient that conforms to DemoPatient.",
-        "exampleCanonical" : "http://example.org/fhir/demo-ig/StructureDefinition/demo-patient"
+        "exampleCanonical" : "https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient"
       },
       {
         "extension" : [

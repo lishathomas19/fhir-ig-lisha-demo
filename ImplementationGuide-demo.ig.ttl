@@ -6,28 +6,28 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/fhir/demo-ig/ImplementationGuide/demo.ig> a fhir:ImplementationGuide ;
+<https://lishathomas19.github.io/fhir-ig-lisha-demo/ImplementationGuide/demo.ig> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "demo.ig"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide demo.ig</b></p><a name=\"demo.ig\"> </a><a name=\"hcdemo.ig\"> </a><h2>DemoImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/fhir/demo-ig/ImplementationGuide/demo.ig</pre><div><p>Simple demo IG with one Patient profile and example.</p>\n</div></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide demo.ig</b></p><a name=\"demo.ig\"> </a><a name=\"hcdemo.ig\"> </a><h2>DemoImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://lishathomas19.github.io/fhir-ig-lisha-demo/ImplementationGuide/demo.ig</pre><div><p>Simple demo IG with one Patient profile and example.</p>\n</div></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
-     fhir:v "http://example.org/fhir/demo-ig/ImplementationGuide/demo.ig"^^xsd:anyURI ;
-     fhir:l <http://example.org/fhir/demo-ig/ImplementationGuide/demo.ig>
+     fhir:v "https://lishathomas19.github.io/fhir-ig-lisha-demo/ImplementationGuide/demo.ig"^^xsd:anyURI ;
+     fhir:l <https://lishathomas19.github.io/fhir-ig-lisha-demo/ImplementationGuide/demo.ig>
   ] ; # 
   fhir:version [ fhir:v "0.0.1"] ; # 
   fhir:name [ fhir:v "DemoImplementationGuide"] ; # 
   fhir:title [ fhir:v "Lisha Demo Implementation Guide"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-12-18T14:07:37+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-23T14:30:43+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Lisha Thomas"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Lisha Thomas" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://github.com/lishathomas19" ]
+       fhir:value [ fhir:v "https://github.com/lishathomas19/fhir-ig-lisha-demo" ]
      ] )
   ] [
      fhir:name [ fhir:v "Lisha Thomas" ] ;
@@ -311,7 +311,7 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "http://example.org/fhir/demo-ig/history.html"
+           fhir:v "https://lishathomas19.github.io/fhir-ig-lisha-demo/history.html"
          ]
        ] ) ;
        fhir:url [
@@ -920,7 +920,7 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "http://example.org/fhir/demo-ig/history.html"
+           fhir:v "https://lishathomas19.github.io/fhir-ig-lisha-demo/history.html"
          ]
        ] ) ;
        fhir:url [
@@ -1300,15 +1300,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://example.org/fhir/demo-ig/Patient/DemoPatientExample> ;
+         fhir:l <https://lishathomas19.github.io/fhir-ig-lisha-demo/Patient/DemoPatientExample> ;
          fhir:reference [ fhir:v "Patient/DemoPatientExample" ]
        ] ;
        fhir:name [ fhir:v "Demo Patient Example" ] ;
        fhir:description [ fhir:v "Example Patient that conforms to DemoPatient." ] ;
        fhir:example [
          a fhir:Canonical ;
-         fhir:v "http://example.org/fhir/demo-ig/StructureDefinition/demo-patient"^^xsd:anyURI ;
-         fhir:l <http://example.org/fhir/demo-ig/StructureDefinition/demo-patient>
+         fhir:v "https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient"^^xsd:anyURI ;
+         fhir:l <https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient>
        ]
      ] [
        fhir:extension ( [
@@ -1322,7 +1322,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://example.org/fhir/demo-ig/StructureDefinition/demo-patient> ;
+         fhir:l <https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient> ;
          fhir:reference [ fhir:v "StructureDefinition/demo-patient" ]
        ] ;
        fhir:name [ fhir:v "Demo Patient Profile" ] ;
@@ -1343,7 +1343,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://example.org/fhir/demo-ig/Patient/example> ;
+         fhir:l <https://lishathomas19.github.io/fhir-ig-lisha-demo/Patient/example> ;
          fhir:reference [ fhir:v "Patient/example" ]
        ] ;
        fhir:name [ fhir:v "example" ] ;

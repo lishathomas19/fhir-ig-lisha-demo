@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/fhir/demo-ig/Patient/DemoPatientExample> a fhir:Patient ;
+<https://lishathomas19.github.io/fhir-ig-lisha-demo/Patient/DemoPatientExample> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "DemoPatientExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://example.org/fhir/demo-ig/StructureDefinition/demo-patient"^^xsd:anyURI ;
-       fhir:l <http://example.org/fhir/demo-ig/StructureDefinition/demo-patient>
+       fhir:v "https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient"^^xsd:anyURI ;
+       fhir:l <https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient>
      ] )
   ] ; # 
   fhir:text [

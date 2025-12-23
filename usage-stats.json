@@ -6,7 +6,7 @@
   "profiles": {
     "Patient": [
       {
-        "url": "http://example.org/fhir/demo-ig/StructureDefinition/demo-patient",
+        "url": "https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient",
         "title": "Demo Patient Profile"
       }
     ]

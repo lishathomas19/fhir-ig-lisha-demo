@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/fhir/demo-ig/Patient/example> a fhir:Patient ;
+<https://lishathomas19.github.io/fhir-ig-lisha-demo/Patient/example> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "example"] ; # 
   fhir:text [

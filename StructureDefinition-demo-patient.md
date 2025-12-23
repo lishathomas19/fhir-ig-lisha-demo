@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://example.org/fhir/demo-ig/StructureDefinition/demo-patient | *Version*:0.0.1 |
-| Active as of 2025-12-18 | *Computable Name*:DemoPatient |
+| *Official URL*:https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient | *Version*:0.0.1 |
+| Active as of 2025-12-23 | *Computable Name*:DemoPatient |
 
  
 Simple Patient profile for learning FHIR Shorthand. 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-demo-patient.csv), [
 {
   "resourceType" : "StructureDefinition",
   "id" : "demo-patient",
-  "url" : "http://example.org/fhir/demo-ig/StructureDefinition/demo-patient",
+  "url" : "https://lishathomas19.github.io/fhir-ig-lisha-demo/StructureDefinition/demo-patient",
   "version" : "0.0.1",
   "name" : "DemoPatient",
   "title" : "Demo Patient Profile",
   "status" : "active",
-  "date" : "2025-12-18T14:07:37+01:00",
+  "date" : "2025-12-23T14:30:43+01:00",
   "publisher" : "Lisha Thomas",
   "contact" : [
     {
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-demo-patient.csv), [
       "telecom" : [
         {
           "system" : "url",
-          "value" : "https://github.com/lishathomas19"
+          "value" : "https://github.com/lishathomas19/fhir-ig-lisha-demo"
         }
       ]
     },
